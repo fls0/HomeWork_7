@@ -7,6 +7,5 @@ setup(name='clean_folder',
       author='fls',
       author_email='mackss.1337@ex.ua',
       license='MIT',
-      packages=['clean_folder'],
       entry_points={'console_scripts': ['clean-folder = clean_folder.main:run']}
     )
