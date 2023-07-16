@@ -8,6 +8,5 @@ setup(name='clean_folder',
       author_email='mackss.1337@ex.ua',
       license='MIT',
       packages=['clean_folder'],
-      install_requires = ['pathlib','re', 'shutil', 'sys'],
-      entry_points={'cmd': ['clean-folder = clean_folder.main:main']}
+      entry_points={'console_scripts': ['clean-folder = clean_folder.main:run']}
     )
